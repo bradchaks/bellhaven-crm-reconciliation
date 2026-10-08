@@ -1,0 +1,22 @@
+{
+  "total_crm_accounts": 121,
+  "bellhaven_related_accounts": 34,
+  "parent_summary": {
+    "Bellhaven Senior Living (Parent Account)": 30,
+    "Harborview Care Group (Parent Account)": 1,
+    "[No Parent]": 1,
+    "Cedar Trail Communities (Parent Account)": 2
+  },
+  "protected_accounts": [
+    "0019Y4J61ZBG4R00CD",
+    "001R4PXTUD9R6FNN8V",
+    "001A34WFSUYHCRBLFT",
+    "001KC1NG7EZDEKKA3T",
+    "001SXSF4ELF0Z2LGDM",
+    "001U6RW32TY0WSXZZB"
+  ],
+  "duplicate_accounts": [
+    "001QU150PM4Z15UA71"
+  ],
+  "chow_accounts": []
+}

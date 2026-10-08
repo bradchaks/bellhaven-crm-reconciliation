@@ -1,0 +1,391 @@
+[
+  {
+    "proposal_id": "findlay-parent-correction",
+    "proposal_type": "PARENT_CORRECTION",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001UKEFGADQ8YCZ4YM",
+    "account_name": "Bellhaven Meadows of Findlay",
+    "review_status": "APPLIED",
+    "reviewed_at": "2026-10-08T16:12:22.037114+00:00",
+    "applied_at": "2026-10-08T16:12:22.037152+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM.",
+    "protected": false,
+    "changes": {
+      "parent_id": "0015QAPLGS3FVYEEEM"
+    },
+    "reason": "The website location matches the CRM account by facility name and location. The CRM account has no Bellhaven parent. The account has no outstanding AR, so the SOP permits direct re-parenting of the existing account.",
+    "evidence": {
+      "website_name": "Bellhaven Meadows of Findlay",
+      "website_url": "https://analyst-assessment-production.up.railway.app/communities/bellhaven-meadows-of-findlay",
+      "website_address": "1800 N Blanchard St",
+      "website_city": "Findlay",
+      "website_state": "OH",
+      "website_zip": "45840",
+      "crm_name": "Bellhaven Meadows of Findlay",
+      "crm_address": "1800 N Blanchard St",
+      "crm_city": "Findlay",
+      "crm_state": "OH",
+      "crm_zip": "45840",
+      "current_parent_id": "",
+      "current_parent_name": "",
+      "expected_parent_id": "0015QAPLGS3FVYEEEM",
+      "expected_parent_name": "Bellhaven Senior Living (Parent Account)",
+      "lifetime_revenue": 22000.0,
+      "outstanding_ar": 0.0
+    },
+    "generated_at": "2026-10-08T16:06:10.299736+00:00"
+  },
+  {
+    "proposal_id": "owosso-duplicate-resolution",
+    "proposal_type": "DUPLICATE_RESOLUTION",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001QU150PM4Z15UA71",
+    "account_name": "Bellhaven of Owosso",
+    "surviving_account_id": "001EGU7BMJ942ZTRE6",
+    "review_status": "APPLIED",
+    "reviewed_at": "2026-10-08T16:14:05.567602+00:00",
+    "applied_at": "2026-10-08T16:14:05.567647+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM.",
+    "protected": false,
+    "changes": {
+      "duplicate_of_account": "001EGU7BMJ942ZTRE6",
+      "status": "Inactive",
+      "note": "Duplicate of Bellhaven of Owosso account 001EGU7BMJ942ZTRE6. Marked inactive following website-to-CRM reconciliation."
+    },
+    "reason": "Both CRM accounts represent Bellhaven of Owosso at the same physical location. Neither account has lifetime revenue or outstanding AR. The losing copy can therefore be marked inactive and linked to the surviving account.",
+    "evidence": {
+      "survivor": {
+        "account_id": "001EGU7BMJ942ZTRE6",
+        "name": "Bellhaven of Owosso",
+        "address": "1120 W Main St",
+        "city": "Owosso",
+        "state": "MI",
+        "zip": "48867",
+        "phone": "(734) 503-1363",
+        "lifetime_revenue": 0.0,
+        "outstanding_ar": 0.0
+      },
+      "duplicate": {
+        "account_id": "001QU150PM4Z15UA71",
+        "name": "Bellhaven of Owosso",
+        "address": "1120 West Main Street",
+        "city": "Owosso",
+        "state": "MI",
+        "zip": "48867",
+        "phone": "(330) 383-5991",
+        "lifetime_revenue": 0.0,
+        "outstanding_ar": 0.0
+      }
+    },
+    "generated_at": "2026-10-08T16:06:10.299764+00:00"
+  },
+  {
+    "proposal_id": "stale-crm-00116ETS45BL7DTQP7",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "00116ETS45BL7DTQP7",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven Care Center of Alliance",
+      "crm_address": "1785 Freshley Ave, Alliance, OH 44601",
+      "crm_city": "Alliance",
+      "crm_state": "OH",
+      "crm_zip": "44601",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:43:41.952956+00:00",
+    "applied_at": "2026-10-08T16:43:41.953008+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-0013NUZQHQUEZ8DXEG",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "0013NUZQHQUEZ8DXEG",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Chesterton Senior Commons",
+      "crm_address": "1250 Northwest Franklin St, Chesterton, IN 46304",
+      "crm_city": "Chesterton",
+      "crm_state": "IN",
+      "crm_zip": "46304",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:46:43.853355+00:00",
+    "applied_at": "2026-10-08T16:46:43.853398+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-0016PVXH4B25HWR7QE",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "0016PVXH4B25HWR7QE",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven of Coldwater",
+      "crm_address": "90 N Michigan Ave, Coldwater, MI 49036",
+      "crm_city": "Coldwater",
+      "crm_state": "MI",
+      "crm_zip": "49036",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:48:35.760073+00:00",
+    "applied_at": "2026-10-08T16:48:35.760123+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-0017MN2JYAJBDS8WQZ",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "0017MN2JYAJBDS8WQZ",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Sunny Acres Retirement Home",
+      "crm_address": "8060 Willow Creek Lane, Portage, MI 49024",
+      "crm_city": "Portage",
+      "crm_state": "MI",
+      "crm_zip": "49024",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:49:45.097023+00:00",
+    "applied_at": "2026-10-08T16:49:45.097050+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001CF3LDWVRGL09P4F",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001CF3LDWVRGL09P4F",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven of Portsmouth",
+      "crm_address": "2222 Gallia St, Portsmouth, OH 45626",
+      "crm_city": "Portsmouth",
+      "crm_state": "OH",
+      "crm_zip": "45626",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:51:01.292488+00:00",
+    "applied_at": "2026-10-08T16:51:01.292536+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001CVBBCSDM7YHN220",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001CVBBCSDM7YHN220",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven Shores of Erie",
+      "crm_address": "4930 W Lake Rd, Erie, PA 16505",
+      "crm_city": "Erie",
+      "crm_state": "PA",
+      "crm_zip": "16505",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "REJECTED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:52:58.674592+00:00",
+    "review_note": "Rejected by reviewer. No CRM change was made."
+  },
+  {
+    "proposal_id": "stale-crm-001NXP9X46CWEPSLSV",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001NXP9X46CWEPSLSV",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven of Ashtabula",
+      "crm_address": "PO Box 517, Ashtabula, OH 44004",
+      "crm_city": "Ashtabula",
+      "crm_state": "OH",
+      "crm_zip": "44004",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:54:02.958954+00:00",
+    "applied_at": "2026-10-08T16:54:02.958996+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001RJU1X4NBWC1Q0G7",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001RJU1X4NBWC1Q0G7",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Riverbend Manor Care Center",
+      "crm_address": "150 River St, Chagrin Falls, OH 44022",
+      "crm_city": "Chagrin Falls",
+      "crm_state": "OH",
+      "crm_zip": "44022",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:55:00.452267+00:00",
+    "applied_at": "2026-10-08T16:55:00.452283+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001U1750VLVJAGG1S5",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001U1750VLVJAGG1S5",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven Gardens of Monroe",
+      "crm_address": "750 Stewart Rd, Monroe, MI 48162",
+      "crm_city": "Monroe",
+      "crm_state": "MI",
+      "crm_zip": "48162",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:56:12.016271+00:00",
+    "applied_at": "2026-10-08T16:56:12.016313+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001UELXDAKFRKB8932",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001UELXDAKFRKB8932",
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven of Port Clinton",
+      "crm_address": "1420 Harbor Point Dr, Port Clinton, OH 43452",
+      "crm_city": "Port Clinton",
+      "crm_state": "OH",
+      "crm_zip": "43452",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0,
+      "outstanding_ar": 0,
+      "status": "Active"
+    },
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "review_status": "APPLIED",
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reviewed_at": "2026-10-08T16:57:39.988439+00:00",
+    "applied_at": "2026-10-08T16:57:39.988469+00:00",
+    "review_note": "Approved by reviewer and successfully applied to CRM."
+  },
+  {
+    "proposal_id": "stale-crm-001EGU7BMJ942ZTRE6",
+    "proposal_type": "STALE_CRM_ACCOUNT",
+    "action": "UPDATE_ACCOUNT",
+    "account_id": "001EGU7BMJ942ZTRE6",
+    "account_name": "Bellhaven of Owosso",
+    "review_status": "SUPERSEDED",
+    "protected": false,
+    "changes": {
+      "status": "Inactive",
+      "note": "Marked inactive following website-to-CRM reconciliation. This Bellhaven-parent account does not appear on the current Bellhaven website and has no lifetime revenue or outstanding AR."
+    },
+    "reason": "This account is under the Bellhaven Senior Living parent but does not appear among the current Bellhaven website locations. It has no lifetime revenue and no outstanding AR, so it is eligible for review as a stale CRM account.",
+    "evidence": {
+      "crm_name": "Bellhaven of Owosso",
+      "crm_address": "1120 W Main St",
+      "crm_city": "Owosso",
+      "crm_state": "MI",
+      "crm_zip": "48867",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "parent_name": "Bellhaven Senior Living (Parent Account)",
+      "website_location_found": false,
+      "lifetime_revenue": 0.0,
+      "outstanding_ar": 0.0,
+      "status": "Active"
+    },
+    "generated_at": "2026-10-08T17:02:25.206488+00:00",
+    "reviewed_at": "2026-10-08T17:05:54.647685+00:00",
+    "review_note": "Automatically superseded because this account is the surviving account from a duplicate-resolution decision and must be retained in the CRM."
+  }
+]
